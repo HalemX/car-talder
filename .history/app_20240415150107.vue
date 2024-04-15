@@ -1,3 +1,0 @@
-<template>
-  nux-la
-</template>
