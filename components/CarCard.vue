@@ -7,5 +7,4 @@
         h1.text-2xl.text-blue-700 Volvo XC40
         p.text-gray-700 Lorem ipsum dolor sit amet consectetur adipisicing elit.
       h1.mt-auto.text-xl #39.555
-      
 </template>

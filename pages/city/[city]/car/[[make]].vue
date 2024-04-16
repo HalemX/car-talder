@@ -1,6 +1,4 @@
 <template lang="pug">
-div
-  <NavBar />
-    slot
-
+.w-full
+  <CarCard />
 </template>
