@@ -1,5 +1,6 @@
 <template lang="pug">
 // CAR DETAIL PAGE
+
 .mt-10
   img.w-full(src="https://carwow-uk-wp-3.imgix.net/Volvo-XC40-white-scaled.jpg" alt="")
   h1.mt-10.text-4xl Volvo 3XT
@@ -35,13 +36,9 @@
 
 <script setup lang="ts">
 const route = useRoute();
-const {toTitleCase} = useToTitle();
+const toTitleCase = useToTitle();
 
 useHead({
   title: toTitleCase(route.params.name),
-});
-
-definePageMeta({
-  layout: "custom",
 });
 </script>

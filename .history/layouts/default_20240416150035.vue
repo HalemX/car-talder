@@ -2,4 +2,5 @@
 div
   <NavBar />
     slot
+
 </template>

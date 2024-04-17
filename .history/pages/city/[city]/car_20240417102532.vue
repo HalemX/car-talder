@@ -20,15 +20,11 @@
 
 <script setup lang="ts">
 const route = useRoute();
-const { toTitleCase } = useToTitle();
+const toTitleCase = useToTitle();
 
 useHead({
   title: `${
     route.params.make ? toTitleCase(route.params.make) : "Cars"
   } in ${toTitleCase(route.params.city)} `,
-});
-
-definePageMeta({
-  layout: "custom",
 });
 </script>

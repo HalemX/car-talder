@@ -20,7 +20,7 @@
 
 <script setup lang="ts">
 const route = useRoute();
-const { toTitleCase } = useToTitle();
+const {toTitleCase = useToTitle();
 
 useHead({
   title: `${

@@ -35,13 +35,9 @@
 
 <script setup lang="ts">
 const route = useRoute();
-const {toTitleCase} = useToTitle();
+const toTitleCase = useToTitle();
 
 useHead({
   title: toTitleCase(route.params.name),
-});
-
-definePageMeta({
-  layout: "custom",
 });
 </script>
